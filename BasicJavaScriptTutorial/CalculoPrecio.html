@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script src="js/calculoPrecio.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<legend>Articulos</legend>
+	<form id="dataForm" action="http://localhost:8080/bla.html" method="post">
+		<div>
+			<label for="pvp">PVP</label>
+			<input type="text" id="pvp" name="pvp"/>	
+		</div>
+		<div>
+			<label for="unidades">UNIDADES</label>
+			<input type="text" id="unidades" name="unidades"/>	
+		</div>
+		<div>
+			<label for="tasas">TASAS</label>
+			<input type="text" id="tasas" name="tasas"/>	
+		</div>
+		<div>
+			<label for="descuento">DESCUENTO</label>
+			<input type="text" id="descuento" name="descuento"/>	
+		</div>
+		<div>
+			<label for="total">TOTAL</label>
+			<input type="text" id="total" name="total"/>	
+		</div>
+		<input type="submit" id="calcularSubmit" value="enviar"/>
+	</form>
+
+</body>
+</html>
